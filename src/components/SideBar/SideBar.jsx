@@ -5,10 +5,10 @@ import { arrSideBarItems } from './../../data/SideBarData';
 
 
 const SideBar = () => {
-	console.log(arrSideBarItems);
+	
 
 	const listSideBarItems = arrSideBarItems.map(item => {
-		return <li key={item.id}> <SideBarItem title={item.title} /> </li>
+		return <li key={item.id}> <SideBarItem title={item.title} icon={item.icon} /> </li>
 	}
 	);
 

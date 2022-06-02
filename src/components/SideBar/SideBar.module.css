@@ -5,4 +5,6 @@
 	grid-row-end: -1;
 	background-color: rgb(5, 130, 255);
 	list-style: none;
+	text-align: left;
+	padding: 10px;
 }

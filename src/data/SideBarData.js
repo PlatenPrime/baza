@@ -8,18 +8,18 @@ export const arrSideBarItems = [
 	{
 		id: 1,
 		title: "Инструменты",
-		icon: ConstructionIcon
+		icon: <ConstructionIcon/>
 	},
 
 	{
 		id: 2,
 		title: "Инструкции",
-		icon: ArrowRightAltIcon
+		icon: <ArrowRightAltIcon/>
 	},
 	
 	{
 		id: 3,
 		title: "Конспект",
-		icon: TextSnippetIcon
+		icon: <TextSnippetIcon/>
 	}
 ]

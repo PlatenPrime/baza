@@ -2,11 +2,11 @@ import React from 'react';
 import style from './SideBarItem.module.css';
 
 
-const SideBarItem = ({ title }) => {
+const SideBarItem = ({ title, icon }) => {
 
 	return (
 		<div className={style.SideBarItem}>
-			{title}
+		{icon}	{title}
 
 		</div>
 	);
