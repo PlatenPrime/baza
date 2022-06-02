@@ -2,7 +2,7 @@ import React from 'react';
 import style from './SideBarItem.module.css';
 
 
-const SideBarItem = ({ title}) => {
+const SideBarItem = ({ title }) => {
 
 	return (
 		<div className={style.SideBarItem}>
