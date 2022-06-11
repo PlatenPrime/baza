@@ -1,22 +1,21 @@
 import React from 'react';
 import style from "./SideBar.module.css";
 import SideBarItem from './SideBarItem/SideBarItem';
-import { arrSideBarItems } from './../../data/SideBarData';
+import { Link } from "react-router-dom";
+
 
 
 const SideBar = () => {
-	
 
-	const listSideBarItems = arrSideBarItems.map(item => {
-		return <li key={item.id}> <SideBarItem title={item.title} icon={item.icon} /> </li>
-	}
-	);
+
 
 
 	return (
 		<div className={style.sidebar}>
 
-			{listSideBarItems}
+			<Link to="/tools"><SideBarItem title="Инструменты" /></Link>
+			<Link to="/guides"><SideBarItem title="Инструкции" /></Link>
+			<Link to="/workbook"><SideBarItem title="Конспект" /></Link>
 
 		</div>
 	);
