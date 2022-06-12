@@ -1,10 +1,11 @@
 import React from 'react';
 import style from './Guides.module.css';
+import Navbar from '../Navbar/Navbar';
 
 const Guides = () => {
 	return (
 		<div className={style.redback}>
-			<h1>This is Guides</h1>
+			<Navbar/>
 		</div>
 	);
 };

@@ -8,6 +8,7 @@ const Tools = () => {
 	return (
 		<div className={style.greenback}>
 			<Navbar />
+			<Outlet/>
 
 
 		</div>

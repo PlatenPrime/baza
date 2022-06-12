@@ -1,0 +1,23 @@
+.navbar {
+	height: 100px;
+	background-color: #000;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+
+.NavbarLink {
+	
+	text-decoration: none;
+
+	
+}
+
+.NavbarLink:visited {
+	color: white;
+	text-decoration: none;
+
+	
+}

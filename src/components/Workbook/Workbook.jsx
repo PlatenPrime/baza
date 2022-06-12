@@ -1,10 +1,11 @@
 import React from 'react';
 import style from './Workbook.module.css';
+import Navbar from '../Navbar/Navbar';
 
 const Workbook = () => {
 	return (
 		<div className={style.blueback}>
-			<h1>This is Workbook</h1>
+			<Navbar/>
 		</div>
 	);
 };

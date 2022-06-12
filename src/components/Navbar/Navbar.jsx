@@ -6,9 +6,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
-		<div>
+		<div className={style.navbar}>
 
-			<Link to="/github"><NavbarItem title="GitHub" /></Link>
+			<Link className={style.NavbarLink} to="/resourses"><NavbarItem title="Ресурсы" /></Link>
+			<Link className={style.NavbarLink} to="/cheetsheets"><NavbarItem title="Шпаргалки" /></Link>
+			<Link className={style.NavbarLink} to="/libs"><NavbarItem title="Библиотеки" /></Link>
+			<Link className={style.NavbarLink} to="/services"><NavbarItem title="Сервисы" /></Link>
 
 		</div>
 	);
