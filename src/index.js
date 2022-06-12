@@ -12,7 +12,7 @@ import Tools from './components/Tools/Tools';
 import Guides from './components/Guides/Guides';
 import Workbook from './components/Workbook/Workbook';
 import Navbar from './components/Navbar/Navbar';
-import Cheetsheets from './components/Tools/Cheetsheets/Cheetsheets';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,14 +23,22 @@ root.render(
 			<Routes>
 				<Route path="/" element={<App />}>
 
-					<Route path="tools" element={<Tools />} />
+					<Route index element={<h1>App</h1>} />
+
+					<Route path="tools/*" element={<Tools />} >
+						<Route path=":toolscategory" element={<h1>Resourses</h1>} />
+
+					</Route>
+
+
+
 					<Route path="guides" element={<Guides />} />
 					<Route path="workbook" element={<Workbook />} />
 					<Route
 						path="*"
 						element={
 							<main style={{ padding: "1rem" }}>
-								<p>There's nothing here!</p>
+								<p>Нихрена не отрисует</p>
 							</main>
 						}
 					/>

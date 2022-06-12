@@ -11,6 +11,8 @@ const Navbar = ({ links }) => {
 
 	)
 
+	
+
 	return (
 		<div className={style.navbar}>
 
