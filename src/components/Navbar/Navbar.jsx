@@ -4,14 +4,18 @@ import NavbarItem from './NavbarItem/NavbarItem';
 import { Link } from "react-router-dom";
 
 
-const Navbar = () => {
+const Navbar = ({ links }) => {
+
+	let navbarLinks = links.map((item) =>
+		<Link key={item.id} className={style.NavbarLink} to={item.route}><NavbarItem title={item.title} /></Link>
+
+	)
+
 	return (
 		<div className={style.navbar}>
 
-			<Link className={style.NavbarLink} to="/resourses"><NavbarItem title="Ресурсы" /></Link>
-			<Link className={style.NavbarLink} to="/cheetsheets"><NavbarItem title="Шпаргалки" /></Link>
-			<Link className={style.NavbarLink} to="/libs"><NavbarItem title="Библиотеки" /></Link>
-			<Link className={style.NavbarLink} to="/services"><NavbarItem title="Сервисы" /></Link>
+			{navbarLinks}
+
 
 		</div>
 	);

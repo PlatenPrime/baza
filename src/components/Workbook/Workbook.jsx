@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 const Workbook = () => {
 	return (
 		<div className={style.blueback}>
-			<Navbar/>
+
 		</div>
 	);
 };

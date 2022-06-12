@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 const Guides = () => {
 	return (
 		<div className={style.redback}>
-			<Navbar/>
+			
 		</div>
 	);
 };

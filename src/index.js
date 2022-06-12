@@ -23,20 +23,7 @@ root.render(
 			<Routes>
 				<Route path="/" element={<App />}>
 
-					<Route path="tools" element={<Tools />} >
-						<Route
-							index
-							element={
-								<main style={{ padding: "1rem" }}>
-									<p>Select a tool</p>
-								</main>
-							}
-						/>
-						<Route path="cheetsheets" element={<Cheetsheets />} />
-
-					</Route>
-
-
+					<Route path="tools" element={<Tools />} />
 					<Route path="guides" element={<Guides />} />
 					<Route path="workbook" element={<Workbook />} />
 					<Route
