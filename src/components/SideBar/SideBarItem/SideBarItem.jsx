@@ -6,7 +6,7 @@ const SideBarItem = ({ title, icon }) => {
 
 	return (
 		<div className={style.SideBarItem}>
-		{icon}	{title}
+			{icon}	{title}
 
 		</div>
 	);
