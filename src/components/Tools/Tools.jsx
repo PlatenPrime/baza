@@ -20,7 +20,7 @@ const Tools = () => {
 
 			<h1>Это страница инструментов</h1>
 
-			<h2> Категория: {toolsLinks[params.toolscategory].id} </h2>
+			{/* <h2> Категория: {toolsLinks[params.toolscategory].id} </h2> */}
 
 
 

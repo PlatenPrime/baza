@@ -1,0 +1,70 @@
+.card {
+	
+	margin: 10px;
+	overflow: hidden;
+	width: 250px;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.3s ease-in-out;
+	border-radius: 30px;
+	
+	outline: none;
+}
+
+
+.card:hover {
+	box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+
+.cardImg {
+	height: 200px;
+	width: 250px;
+	overflow: hidden;
+}
+
+.cardImg img {
+	height: 200px;
+	width: 250px;
+	overflow: hidden;
+	filter: contrast(95%);
+}
+
+.cardImg img:hover {
+	transform: scale(1.03);
+	transition: 0.3s ease-in-out;
+	filter: contrast(120%);
+}
+
+
+.cardP {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 250px;
+	background-color: rgba(0, 60, 255, 0.596);
+	transition: 0.5s;
+}
+
+.cardP:hover {
+	background-color: rgb(83, 123, 255)
+}
+
+
+.cardP a  {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+
+}
+
+.cardpP a:visited {
+	color: rgb(255, 255, 255);
+}
+
+
