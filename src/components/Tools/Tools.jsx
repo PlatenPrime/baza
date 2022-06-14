@@ -13,7 +13,7 @@ const Tools = () => {
 
 
 	return (
-		<div className={style.greenback}>
+		<div className={style.tools}>
 
 
 			<Navbar links={toolsNavbar} />
@@ -23,9 +23,9 @@ const Tools = () => {
 			{/* <h2> Категория: {toolsLinks[params.toolscategory].id} </h2> */}
 
 
-
-
-			<Outlet />
+			<main className={style.toolsMain}>
+				<Outlet />
+			</main>
 
 
 		</div>

@@ -12,6 +12,8 @@ import Tools from './components/Tools/Tools';
 import Guides from './components/Guides/Guides';
 import Workbook from './components/Workbook/Workbook';
 import Navbar from './components/Navbar/Navbar';
+import Main from './components/Main/Main';
+import Gallery from './components/Gallery/Gallery';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,10 +25,10 @@ root.render(
 			<Routes>
 				<Route path="/" element={<App />}>
 
-					<Route index element={<h1>App</h1>} />
+					<Route index element={<Main />} />
 
 					<Route path="tools/*" element={<Tools />} >
-						<Route path=":toolscategory" element={<h1>Resourses</h1>} />
+						<Route path=":toolscategory" element={<Gallery/>} />
 
 					</Route>
 
