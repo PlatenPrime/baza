@@ -1,12 +1,28 @@
 import React from 'react';
 import style from './Gallery.module.css';
 import GalleryCard from './GalleryCard/GalleryCard';
+import { toolsLinks } from "./../../data/Links/toolsLinks";
 
-const Gallery = () => {
+const Gallery = ({ category }) => {
+
+
+	const listLinks = toolsLinks[category];
+
+	const listGallery = listLinks.map((item) =>
+
+		<GalleryCard key={item.id} link={item.link} title={item.title} img={item.img}                 />
+
+	);
+
+
 	return (
 		<div className={style.gallery}>
-			<GalleryCard index="0" />
-			<GalleryCard index="1" />
+
+
+			{listGallery}
+
+
+
 
 		</div>
 	);

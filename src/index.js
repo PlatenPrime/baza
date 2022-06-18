@@ -14,6 +14,7 @@ import Workbook from './components/Workbook/Workbook';
 import Navbar from './components/Navbar/Navbar';
 import Main from './components/Main/Main';
 import Gallery from './components/Gallery/Gallery';
+import Content from './components/Content/Content';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,7 +29,7 @@ root.render(
 					<Route index element={<Main />} />
 
 					<Route path="tools/*" element={<Tools />} >
-						<Route path=":toolscategory" element={<Gallery/>} />
+						<Route path=":category" element={<Content />} />
 
 					</Route>
 
