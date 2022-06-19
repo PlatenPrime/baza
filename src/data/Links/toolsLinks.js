@@ -19,6 +19,7 @@ export const toolsLinks = {
 			title: "MDN",
 			link: 'https://developer.mozilla.org/ru/',
 			img: "https://developer.mozilla.org/favicon-192x192.png",
+			
 
 		},
 

@@ -11,7 +11,6 @@ const Gallery = ({ category }) => {
 	const listGallery = listLinks.map((item) =>
 
 		<GalleryCard key={item.id} link={item.link} title={item.title} img={item.img}                 />
-
 	);
 
 
@@ -20,8 +19,6 @@ const Gallery = ({ category }) => {
 
 
 			{listGallery}
-
-
 
 
 		</div>
