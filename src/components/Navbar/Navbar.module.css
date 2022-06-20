@@ -14,14 +14,21 @@ flex-wrap: wrap;
 
 .NavbarLink {
 	
-	text-decoration: none;
+color: rgb(255, 255, 255);
+text-decoration: none;
 
 	
 }
 
 .NavbarLink:visited {
-	color: white;
-	text-decoration: none;
+
 
 	
 }
+
+.NavbarLink_active {
+	
+	color: rgb(47, 246, 229);
+	text-decoration: none;
+		
+	}

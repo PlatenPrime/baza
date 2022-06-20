@@ -1,17 +1,22 @@
 import React from 'react';
 import style from './Navbar.module.css';
 import NavbarItem from './NavbarItem/NavbarItem';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = ({ links }) => {
 
+	const setActive = ({ isActive }) => isActive ? style.NavbarLink_active : style.NavbarLink;
+
+
+
+
 	let navbarLinks = links.map((item) =>
-		<Link key={item.id} className={style.NavbarLink} to={item.route}><NavbarItem title={item.title} /></Link>
+		<NavLink key={item.id} className={setActive} to={item.route}><NavbarItem title={item.title} /></NavLink>
 
 	)
 
-	
+
 
 	return (
 		<div className={style.navbar}>
