@@ -168,6 +168,78 @@ export const toolsLinks = {
 
 	],
 
+	//REACT
+
+	react: [
+
+		{
+			id: 1,
+			title: "React Docs",
+			link: 'https://beta.reactjs.org/',
+			img: "https://i.imgur.com/7oPhTBG.png",
+
+		},
+		{
+			id: 2,
+			title: "React Redux",
+			link: 'https://react-redux.js.org/',
+			img: "https://i.imgur.com/oVFJgo3.png",
+
+		},
+		{
+			id: 3,
+			title: "React Router",
+			link: 'https://reactrouter.com/',
+			img: "https://i.imgur.com/3yAmibe.png",
+
+		},
+		{
+			id: 4,
+			title: "Create React App",
+			link: 'https://create-react-app.dev/',
+			img: "https://i.imgur.com/M6ZNyXg.png",
+
+		},
+		{
+			id: 5,
+			title: "React Native",
+			link: 'https://reactnative.dev/',
+			img: "https://i.imgur.com/jgqjkrz.png",
+
+		},
+		{
+			id: 6,
+			title: "Reactjs code snippets",
+			link: 'hhttps://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets',
+			img: "https://i.imgur.com/wODFakT.png",
+
+		},
+		{
+			id: 7,
+			title: "React Cheatsheet",
+			link: 'https://www.freecodecamp.org/news/the-react-cheatsheet/',
+			img: "https://i.imgur.com/EJrZqf3.png",
+
+		},
+		{
+			id: 8,
+			title: "React Cheat Sheet",
+			link: 'https://tapajyoti-bose.medium.com/react-cheat-sheet-with-react-18-99c4662203bb',
+			img: "https://i.imgur.com/qRmRSKU.png",
+
+		},
+		{
+			id: 9,
+			title: "Gurufy",
+			link: 'https://gurufy.dev/',
+			img: "https://i.imgur.com/IWcbtB9.png",
+
+		},
+
+
+
+	],
+
 
 
 
@@ -273,6 +345,10 @@ export const UpdateToolsLinks = {
 		},
 
 	],
+
+
+
+
 
 
 

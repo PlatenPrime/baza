@@ -36,6 +36,11 @@ export const toolsNavbar = [
 		title: 'JS',
 		route: 'js'
 	},
+	{
+		id: 8,
+		title: 'REACT',
+		route: 'react'
+	},
 
 
 ]
