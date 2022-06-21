@@ -21,6 +21,23 @@ export const toolsNavbar = [
 		title: 'Сервисы',
 		route: 'services'
 	},
+	{
+		id: 5,
+		title: 'HTML',
+		route: 'html'
+	},
+	{
+		id: 6,
+		title: 'CSS',
+		route: 'css'
+	},
+	{
+		id: 7,
+		title: 'JS',
+		route: 'js'
+	},
+
+
 ]
 
 
