@@ -3,7 +3,19 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
+	width: calc(100% - 200px);
 	
 }
 
 
+@media (max-width: 700px) { 
+	
+	.tools {
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	
+	}
+	
+	
+}

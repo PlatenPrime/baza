@@ -6,6 +6,7 @@ align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
 padding: 20px 5px;
+min-width: 95%;
 
 
 
