@@ -46,6 +46,20 @@ export const toolsLinks = {
 			img: "https://i.imgur.com/eKperJz.png",
 
 		},
+		{
+			id: 6,
+			title: "learn-the-web",
+			link: 'https://learn-the-web.algonquindesign.ca/',
+			img: "https://i.imgur.com/f9JKzRS.png",
+
+		},
+		{
+			id: 7,
+			title: "Вопросы на собеседовании",
+			link: 'https://github.com/YauhenKavalchuk/interview-questions',
+			img: "https://i.imgur.com/66DPwbO.png",
+
+		},
 
 
 
@@ -235,7 +249,90 @@ export const toolsLinks = {
 			img: "https://i.imgur.com/IWcbtB9.png",
 
 		},
+		{
+			id: 10,
+			title: "apollographql",
+			link: 'https://www.apollographql.com/tutorials/',
+			img: "https://i.imgur.com/jYB0Z16.png",
 
+		},
+
+
+
+	],
+
+
+	// COMUNITY
+
+	community: [
+
+		{
+			id: 1,
+			title: "github",
+			link: 'https://github.com/',
+			img: "https://i.imgur.com/ACxDyz0.png",
+
+		},
+
+		{
+			id: 2,
+			title: "codesandbox",
+			link: 'https://codesandbox.io/',
+			img: "https://i.imgur.com/X2b8rJW.png",
+
+		},
+		{
+			id: 3,
+			title: "stackblitz",
+			link: 'https://stackblitz.com/',
+			img: "https://i.imgur.com/JeNHxpR.png",
+
+		},
+		{
+			id: 4,
+			title: "plnkr",
+			link: 'https://plnkr.co/',
+			img: "https://i.imgur.com/5PuMn0y.png",
+
+		},
+
+		{
+			id: 5,
+			title: "codepen",
+			link: 'https://codepen.io/',
+			img: "https://i.imgur.com/r1wDENb.png",
+
+		},
+		{
+			id: 6,
+			title: "netlify",
+			link: 'https://www.netlify.com/',
+			img: "https://i.imgur.com/5dThgOa.png",
+
+		},
+		{
+			id: 7,
+			title: "vercel",
+			link: 'https://vercel.com/dashboard',
+			img: "https://i.imgur.com/kDIr31Z.png",
+
+		},
+
+		{
+			id: 8,
+			title: "transform.tools",
+			link: 'https://transform.tools/',
+			img: "https://i.imgur.com/208tHh1.png",
+
+		},
+
+		{
+			id: 9,
+			title: "jsonplaceholder",
+			link: 'https://jsonplaceholder.typicode.com/',
+			img: "https://i.imgur.com/Z0eNAko.png",
+
+		},
 
 
 	],

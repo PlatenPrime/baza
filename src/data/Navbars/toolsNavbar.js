@@ -41,6 +41,11 @@ export const toolsNavbar = [
 		title: 'REACT',
 		route: 'react'
 	},
+	{
+		id: 9,
+		title: 'Community',
+		route: 'community'
+	},
 
 
 ]
