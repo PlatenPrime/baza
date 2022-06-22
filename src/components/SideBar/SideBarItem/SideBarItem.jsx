@@ -5,11 +5,16 @@ import style from './SideBarItem.module.css';
 const SideBarItem = ({ title, icon }) => {
 
 	return (
-		<div className={style.SideBarItem}>
-			{icon}	{title}
+		<>
+			<div className={style.sideBarItem}>
+				{icon}	{title}
 
-		</div>
+
+			</div>
+
+		</>
 	);
+
 };
 
 export default SideBarItem;

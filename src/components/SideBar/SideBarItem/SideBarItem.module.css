@@ -1,4 +1,31 @@
-.SideBarItem {
+.sideBarItem {
 	color: white;
+	text-transform: uppercase;
+padding-left: 10px;
+border-radius: 5px;
+margin: 10px 0;
+height: 2rem;
+display: flex;
+justify-content: start;
+align-items: center;
 	
+}
+
+
+.sideBarItem:hover {
+	background-color: rgb(5, 200, 142);
+	color: rgb(255, 255, 255);
+	-webkit-transition: background 0.3s ease-in;
+	-moz-transition: background 0.3s ease-in;
+	-ms-transition: background 0.3s ease-in;
+	-o-transition: background 0.3s ease-in;
+	transition: background 0.3s ease-in;
+
+
+
+
+}
+
+hr {
+	color: white;
 }

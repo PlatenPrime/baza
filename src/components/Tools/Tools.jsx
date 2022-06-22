@@ -32,10 +32,7 @@ const Tools = () => {
 		<div className={style.tools}>
 
 
-
-
 			<Navbar links={toolsNavbar} />
-
 
 
 			<ToolsCategoryContext.Provider value={category}>

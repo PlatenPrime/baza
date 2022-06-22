@@ -3,15 +3,24 @@
 	padding: 0;
 	box-sizing: border-box;
   text-align: center;
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 250px 1fr;
-  grid-template-rows: 100px 1fr;
+  display: flex;
+  min-height: 100vh;
+
+  flex-direction: row;
   background-color: rgb(0, 0, 0);
   color: aliceblue;
   
 }
 
-.active-link {
-	color: greenyellow;
+
+
+
+
+@media (max-width: 700px) { 
+	
+.App {
+	flex-direction: column;
 }
+
+}
+

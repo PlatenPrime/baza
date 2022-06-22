@@ -6,8 +6,9 @@ const HomeLink = () => {
 	return (
 		<div className={style.homeLink}>
 			<Link to="/" className={style.homeLinkLink} >
-				<h1>Home</h1>
+				<h1>BAZA</h1>
 			</Link>
+			<hr />
 		</div>
 	);
 };
