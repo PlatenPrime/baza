@@ -8,7 +8,7 @@ const HomeLink = () => {
 			<Link to="/" className={style.homeLinkLink} >
 				<h1>BAZA</h1>
 			</Link>
-			<hr />
+
 		</div>
 	);
 };

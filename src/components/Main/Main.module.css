@@ -1,4 +1,16 @@
 .main {
 	color:azure;
-	min-width: 100%;
+	width: calc(100% - 200px);
+}
+
+@media (max-width: 768px) { 
+	
+	.main {
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	
+	}
+	
+	
 }

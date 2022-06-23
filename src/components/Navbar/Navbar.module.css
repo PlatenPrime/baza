@@ -1,13 +1,13 @@
 .navbar {
 	height: fit-content;
-	background-color: #000;
+	background-color: inherit;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
 padding: 20px 5px;
 min-width: 95%;
-
+box-sizing: border-box;
 
 
 }
@@ -16,7 +16,7 @@ min-width: 95%;
 .NavbarLink {
 	
 color: rgb(255, 255, 255);
-background-color: rgb(58, 155, 233);
+background-color: transparent;
 text-decoration: none;
 width: 10rem;
 height: 2rem;
