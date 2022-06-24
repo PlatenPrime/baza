@@ -9,3 +9,20 @@
 	text-decoration: none;
 	text-align: center;
 }
+
+.homeLink:hover {
+	
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	text-align: center;
+	background-color: rgb(5, 200, 142);
+	transition: 0.3s;
+}
+
+.homeLinkLink:hover {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	text-align: center;
+	transition: 0.3s;
+}
+

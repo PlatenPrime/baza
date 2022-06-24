@@ -14,7 +14,7 @@ margin-bottom: 10px;
 
 .sideBarItem:hover {
 	background-color: rgb(5, 200, 142);
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	-webkit-transition: background 0.3s ease-in;
 	-moz-transition: background 0.3s ease-in;
 	-ms-transition: background 0.3s ease-in;
