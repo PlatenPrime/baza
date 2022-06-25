@@ -3,46 +3,42 @@
 export const toolsNavbar = [
 	{
 		id: 1,
-		title: 'Ресурсы',
+		title: 'Resourses',
 		route: 'resourses'
 	},
+	
 	{
 		id: 2,
-		title: 'Шпаргалки',
-		route: 'cheetsheets'
-	},
-	{
-		id: 3,
-		title: 'Библиотеки',
-		route: 'libs'
-	},
-	{
-		id: 4,
-		title: 'Сервисы',
-		route: 'services'
-	},
-	{
-		id: 5,
 		title: 'HTML',
 		route: 'html'
 	},
 	{
-		id: 6,
+		id: 3,
 		title: 'CSS',
 		route: 'css'
 	},
 	{
-		id: 7,
+		id: 4,
 		title: 'JS',
 		route: 'js'
 	},
 	{
-		id: 8,
+		id: 5,
 		title: 'REACT',
 		route: 'react'
 	},
 	{
-		id: 9,
+		id: 6,
+		title: 'Libraries',
+		route: 'libs'
+	},
+	{
+		id: 7,
+		title: 'Images',
+		route: 'images'
+	},
+	{
+		id: 8,
 		title: 'Community',
 		route: 'community'
 	},

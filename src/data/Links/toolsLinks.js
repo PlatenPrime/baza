@@ -10,7 +10,7 @@ export const toolsLinks = {
 			id: 1,
 			title: "w3school",
 			link: 'https://www.w3schools.com/',
-			img: "https://www.w3schools.com/favicon.ico",
+			img: "https://i.imgur.com/sZjQnPt.png",
 
 		},
 
@@ -18,7 +18,7 @@ export const toolsLinks = {
 			id: 2,
 			title: "MDN",
 			link: 'https://developer.mozilla.org/ru/',
-			img: "https://developer.mozilla.org/favicon-192x192.png",
+			img: "https://i.imgur.com/1aU7rOT.png",
 
 
 		},
@@ -27,7 +27,7 @@ export const toolsLinks = {
 			id: 3,
 			title: "freecodecamp",
 			link: 'https://www.freecodecamp.org/learn',
-			img: "https://play-lh.googleusercontent.com/MoaYYQjGtmGLhG9HbjCDKyj44kwHj1HfbCI2Am70elRm35vJ-u4y4X5uEJjP97MAAsU=w240-h480-rw",
+			img: "https://i.imgur.com/80Xwwj9.png",
 
 		},
 
@@ -35,7 +35,7 @@ export const toolsLinks = {
 			id: 4,
 			title: "learn.javascript",
 			link: 'https://learn.javascript.ru/',
-			img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9aEJdBu4wPzYX0BgdHmkUyOmUxbg90WBrNIRq7mdkvxb5WSjTH4adByHVJH-LemrkQ0&usqp=CAU",
+			img: "https://i.imgur.com/xR8WzYi.png",
 
 		},
 
@@ -58,6 +58,14 @@ export const toolsLinks = {
 			title: "Вопросы на собеседовании",
 			link: 'https://github.com/YauhenKavalchuk/interview-questions',
 			img: "https://i.imgur.com/66DPwbO.png",
+
+		},
+
+		{
+			id: 8,
+			title: "Design Resources",
+			link: 'https://designresourc.es/',
+			img: "https://i.imgur.com/XwxKuSo.png",
 
 		},
 
@@ -84,6 +92,14 @@ export const toolsLinks = {
 			img: "https://i.imgur.com/smFqzhn.png",
 
 		},
+		{
+			id: 3,
+			title: "overapi html",
+			link: 'https://overapi.com/html',
+			img: "https://i.imgur.com/A5S4qGE.png",
+
+		},
+
 
 	],
 
@@ -155,6 +171,31 @@ export const toolsLinks = {
 			img: "https://i.imgur.com/VT8egPI.png",
 
 		},
+
+
+		{
+			id: 9,
+			title: "GRID LAYOUT",
+			link: 'https://grid.malven.co/',
+			img: "https://i.imgur.com/Q8ZLhEx.png",
+
+		},
+
+		{
+			id: 10,
+			title: "FLEXBOX",
+			link: 'https://flexbox.malven.co/',
+			img: "https://i.imgur.com/AMl4N6y.png",
+
+		},
+		{
+			id: 11,
+			title: "overapi css",
+			link: 'https://overapi.com/css',
+			img: "https://i.imgur.com/N1UrS6D.png",
+
+		},
+
 
 
 	],
@@ -333,6 +374,13 @@ export const toolsLinks = {
 			img: "https://i.imgur.com/Z0eNAko.png",
 
 		},
+		{
+			id: 10,
+			title: "RESPONSIVE",
+			link: 'http://mattkersley.com/responsive/',
+			img: "https://i.imgur.com/Tw7HQWV.png",
+
+		},
 
 
 	],
@@ -344,24 +392,6 @@ export const toolsLinks = {
 
 	//CHEETSHEETS
 
-	cheetsheets: [
-
-		{
-			id: 1,
-			title: "GRID LAYOUT",
-			link: 'https://grid.malven.co/',
-			img: "https://i.imgur.com/Q8ZLhEx.png",
-
-		},
-
-		{
-			id: 2,
-			title: "FLEXBOX",
-			link: 'https://flexbox.malven.co/',
-			img: "https://i.imgur.com/AMl4N6y.png",
-
-		},
-	],
 
 	//LIBS
 
@@ -371,7 +401,7 @@ export const toolsLinks = {
 			id: 1,
 			title: "GOOGLE FONTS",
 			link: 'https://fonts.google.com/',
-			img: "https://i.imgur.com/cAuAD0a.png",
+			img: "https://i.imgur.com/AJCMOGk.png",
 
 		},
 
@@ -379,76 +409,104 @@ export const toolsLinks = {
 			id: 2,
 			title: "MUI",
 			link: 'https://mui.com/',
-			img: "https://i.imgur.com/vTRVxXe.png",
-
-		},
-	],
-
-	//SERVICES
-
-	services: [
-
-		{
-			id: 1,
-			title: "RESPONSIVE",
-			link: 'http://mattkersley.com/responsive/',
-			img: "https://i.imgur.com/SVm6PcH.png",
-
-		},
-
-		{
-			id: 2,
-			title: "GRABIENT",
-			link: 'https://www.grabient.com/',
-			img: "https://i.imgur.com/ADNpLC5.png",
+			img: "https://i.imgur.com/Xq1Op7v.png",
 
 		},
 
 		{
 			id: 3,
-			title: "CODEPEN",
-			link: 'https://codepen.io/pen',
-			img: "https://i.imgur.com/sJYF1yM.png",
+			title: "codyhouse",
+			link: 'https://codyhouse.co/',
+			img: "https://i.imgur.com/xcj0don.png",
 
 		},
+
+
+		{
+			id: 4,
+			title: "animista",
+			link: 'https://animista.net/',
+			img: "https://i.imgur.com/yM7zvFy.png",
+
+		},
+
+
+
+
 	],
 
+	//SERVICES
 
-
-
-}
-
-export const UpdateToolsLinks = {
-
-
-	//HTML
-
-	html: [
+	images: [
 
 		{
 			id: 1,
-			title: "HTML Cheat Sheet",
-			link: 'https://websitesetup.org/html5-cheat-sheet/',
-			img: "https://i.imgur.com/nBSx5Hq.png",
+			title: "imgur",
+			link: 'https://imgur.com/',
+			img: "https://i.imgur.com/iMoxEg5.png",
+
+		},
+
+
+		{
+			id: 2,
+			title: "GRABIENT",
+			link: 'https://www.grabient.com/',
+			img: "https://i.imgur.com/Ur2OxQg.png",
 
 		},
 
 		{
-			id: 2,
-			title: "word to html",
-			link: 'https://wordtohtml.net/',
-			img: "https://i.imgur.com/i5tXBd4.png",
+			id: 3,
+			title: "gradient-king",
+			link: 'https://gradient-king.vercel.app/',
+			img: "https://i.imgur.com/jdEurxS.png",
 
 		},
+		{
+			id: 4,
+			title: "conic.css",
+			link: 'https://www.conic.style/',
+			img: "https://i.imgur.com/gFvHiwk.png",
+
+		},
+		{
+			id: 5,
+			title: "pixabay",
+			link: 'https://pixabay.com/ru/',
+			img: "https://i.imgur.com/ZKvj60t.png",
+
+		},
+		{
+			id: 6,
+			title: "unsplash",
+			link: 'https://unsplash.com/',
+			img: "https://i.imgur.com/GJrxze6.png",
+
+		},
+		{
+			id: 7,
+			title: "ray.so",
+			link: 'https://ray.so//',
+			img: "https://i.imgur.com/u3G3FCC.png",
+
+		},
+
+
+
 
 	],
 
 
 
 
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
