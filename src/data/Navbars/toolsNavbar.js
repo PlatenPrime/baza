@@ -6,7 +6,7 @@ export const toolsNavbar = [
 		title: 'Resourses',
 		route: 'resourses'
 	},
-	
+
 	{
 		id: 2,
 		title: 'HTML',
@@ -41,6 +41,11 @@ export const toolsNavbar = [
 		id: 8,
 		title: 'Community',
 		route: 'community'
+	},
+	{
+		id: 9,
+		title: 'challenges',
+		route: 'challenges'
 	},
 
 

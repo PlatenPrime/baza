@@ -33,9 +33,9 @@ export const toolsLinks = {
 
 		{
 			id: 4,
-			title: "learn.javascript",
-			link: 'https://learn.javascript.ru/',
-			img: "https://i.imgur.com/xR8WzYi.png",
+			title: "javascript.info",
+			link: 'https://javascript.info/',
+			img: "https://i.imgur.com/eKuksEP.png",
 
 		},
 
@@ -53,19 +53,20 @@ export const toolsLinks = {
 			img: "https://i.imgur.com/f9JKzRS.png",
 
 		},
+
+
 		{
 			id: 7,
-			title: "Вопросы на собеседовании",
-			link: 'https://github.com/YauhenKavalchuk/interview-questions',
-			img: "https://i.imgur.com/66DPwbO.png",
-
-		},
-
-		{
-			id: 8,
 			title: "Design Resources",
 			link: 'https://designresourc.es/',
 			img: "https://i.imgur.com/XwxKuSo.png",
+
+		},
+		{
+			id: 8,
+			title: "patterns",
+			link: 'https://www.patterns.dev/',
+			img: "https://i.imgur.com/jyjRqBX.png",
 
 		},
 
@@ -97,6 +98,13 @@ export const toolsLinks = {
 			title: "overapi html",
 			link: 'https://overapi.com/html',
 			img: "https://i.imgur.com/A5S4qGE.png",
+
+		},
+		{
+			id: 4,
+			title: "html reference",
+			link: 'https://htmlreference.io/',
+			img: "https://i.imgur.com/4HsoJg6.png",
 
 		},
 
@@ -195,6 +203,20 @@ export const toolsLinks = {
 			img: "https://i.imgur.com/N1UrS6D.png",
 
 		},
+		{
+			id: 12,
+			title: "cssanimation.rocks",
+			link: 'https://cssanimation.rocks/',
+			img: "https://i.imgur.com/wQMrOGN.png",
+
+		},
+		{
+			id: 13,
+			title: "css reference",
+			link: 'https://cssreference.io/',
+			img: "https://i.imgur.com/3XEgejp.png",
+
+		},
 
 
 
@@ -217,6 +239,13 @@ export const toolsLinks = {
 			title: "javascript-cheat-sheet",
 			link: 'https://websitesetup.org/javascript-cheat-sheet/',
 			img: "https://i.imgur.com/FrqhHCx.png",
+
+		},
+		{
+			id: 3,
+			title: "33 JS Concepts",
+			link: 'https://github.com/leonardomso/33-js-concepts',
+			img: "https://i.imgur.com/5Vq3lIX.png",
 
 		},
 
@@ -496,6 +525,59 @@ export const toolsLinks = {
 
 
 	],
+
+	challenges: [
+		{
+			id: 1,
+			title: "Вопросы на собеседовании",
+			link: 'https://github.com/YauhenKavalchuk/interview-questions',
+			img: "https://i.imgur.com/66DPwbO.png",
+
+		},
+		{
+			id: 2,
+			title: "frontend mentor",
+			link: 'https://www.frontendmentor.io/home',
+			img: "https://i.imgur.com/MXpagJs.png",
+
+		},
+		{
+			id: 3,
+			title: "dash",
+			link: 'https://dash.generalassemb.ly/',
+			img: "https://i.imgur.com/xNsSbe5.png",
+
+		},
+		{
+			id: 4,
+			title: "codewars",
+			link: 'https://www.codewars.com/dashboard',
+			img: "https://i.imgur.com/2hq2TdY.png",
+
+		},
+		{
+			id: 5,
+			title: "30 seconds of interviews",
+			link: 'https://30secondsofinterviews.org/',
+			img: "https://i.imgur.com/2hq2TdY.png",
+
+		},
+		{
+			id: 6,
+			title: "JavaScript Questions",
+			link: 'https://github.com/lydiahallie/javascript-questions#readme',
+			img: "https://i.imgur.com/ND6Mcxm.png",
+
+		},
+		{
+			id: 7,
+			title: "CodeAnalogies",
+			link: 'http://www.codeanalogies.com/',
+			img: "https://i.imgur.com/PEiuWNX.png",
+
+		},
+
+	]
 
 
 
