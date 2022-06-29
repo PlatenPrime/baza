@@ -29,6 +29,7 @@ root.render(
 					<Route index element={<Main />} />
 
 					<Route path="tools/*" element={<Tools />} >
+
 						<Route path=":category" element={<Content />} />
 
 					</Route>

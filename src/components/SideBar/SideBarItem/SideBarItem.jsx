@@ -8,8 +8,6 @@ const SideBarItem = ({ title, icon }) => {
 		<>
 			<div className={style.sideBarItem}>
 				{icon}	{title}
-
-
 			</div>
 
 		</>

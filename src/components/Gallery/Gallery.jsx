@@ -10,16 +10,14 @@ const Gallery = ({ category }) => {
 
 	const listGallery = listLinks.map((item) =>
 
-		<GalleryCard key={item.id} link={item.link} title={item.title} img={item.img}                 />
+		<GalleryCard key={item.id} link={item.link} title={item.title} img={item.img} />
 	);
 
 
 	return (
 		<div className={style.gallery}>
 
-
 			{listGallery}
-
 
 		</div>
 	);

@@ -10,9 +10,9 @@ const GalleryCard = (props) => {
 
 		<div className={style.card}>
 			<div className={style.cardImg}>
-				<a href={props.link} target="_blank">
+				
 					<img src={props.img} alt="" />
-				</a>
+			
 			</div>
 			<div className={style.cardP}>
 				<a href={props.link} target="_blank">

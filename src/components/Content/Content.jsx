@@ -14,7 +14,6 @@ const Content = (props) => {
 	return (
 		<div className={style.content}>
 
-
 			<Gallery category={category} />
 
 		</div>

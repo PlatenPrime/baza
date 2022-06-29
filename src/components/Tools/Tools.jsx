@@ -16,12 +16,9 @@ const Tools = () => {
 	// и в самом провайдере передаем уже его 
 
 	let category = useContext(ToolsCategoryContext);
+
 	category = params.category;
 
-
-
-
-	console.log(category);
 
 
 
@@ -37,7 +34,7 @@ const Tools = () => {
 
 			<ToolsCategoryContext.Provider value={category}>
 
-				<Outlet />
+				{params.category ? <Outlet /> : <h3>Клацни по какой-то кнопке, чтобы увидеть красоту!</h3>}
 
 			</ToolsCategoryContext.Provider>
 
