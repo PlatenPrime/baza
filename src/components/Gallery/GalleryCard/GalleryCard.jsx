@@ -10,10 +10,12 @@ const GalleryCard = (props) => {
 
 		<div className={style.card}>
 			<div className={style.cardImg}>
-				
-					<img src={props.img} alt="" />
-			
+
+				<img src={props.img} alt="" />
+
 			</div>
+
+
 			<div className={style.cardP}>
 				<a href={props.link} target="_blank">
 					<p>{props.title}</p>
