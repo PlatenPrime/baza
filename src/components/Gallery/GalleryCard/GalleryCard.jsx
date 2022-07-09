@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './GalleryCard.module.css';
 
 
 const GalleryCard = (props) => {
+
+	const [cardImgDescription, setCardImgDescription] = useState(false);
+
+	const handleDescription = () => {
+		setCardImgDescription(!cardImgDescription);
+	}
 
 
 	return (
 
 
 		<div className={style.card}>
-			<div className={style.cardImg}>
+			<div className={style.cardImg} onClick={handleDescription} >
 
-				<img src={props.img} alt="" />
+				{cardImgDescription ? <h1>Description {props.title}</h1> : <img src={props.img} alt="" />}
+
+
 
 			</div>
 
