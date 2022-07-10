@@ -24,25 +24,25 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
-box-shadow: 0px 0px 1px 1px white;
 margin: 5px;
+border: 1px solid rgb(5, 200, 142);
+transition: 0.1s;
 	
 }
 
 
 .NavbarLink:hover {
-	background-color: rgb(5, 200, 142);
-	-webkit-transition: background 0.3s ease-in;
--moz-transition: background 0.3s ease-in;
--ms-transition: background 0.3s ease-in;
--o-transition: background 0.3s ease-in;
-transition: background 0.3s ease-in;
+	
+	box-shadow: 0px 0px 10px 3px rgb(5, 200, 142);
+
 }
 
 
 .NavbarLink_active {
 	
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	
+	border: 1px solid rgb(5, 200, 142);
 	text-decoration: none;
 	background-color: rgb(5, 200, 142);
 
@@ -52,6 +52,5 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
-box-shadow: 0px 0px 1px 1px white;
 margin: 5px;
 	}

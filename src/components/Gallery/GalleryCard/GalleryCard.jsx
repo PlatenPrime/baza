@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import style from './GalleryCard.module.css';
+import cx from 'classnames';
 
 
 const GalleryCard = (props) => {
@@ -15,9 +16,20 @@ const GalleryCard = (props) => {
 
 
 		<div className={style.card}>
-			<div className={style.cardImg} onClick={handleDescription} >
+			<div className={cx(style.cardImg)} onClick={handleDescription} >
 
-				{cardImgDescription ? <h1>Description {props.title}</h1> : <img src={props.img} alt="" />}
+				{cardImgDescription ?
+					<div className={cx(style.animationOfCardImgP, style.cardImgP)}>
+						<p >   {props.description}  </p>
+					</div>
+					:
+					<section className={cx(style.animationOfCardImgImg)}>
+						<img src={props.img} alt="" />
+					</section>
+
+
+
+				}
 
 
 

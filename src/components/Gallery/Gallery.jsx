@@ -10,7 +10,7 @@ const Gallery = ({ category }) => {
 
 	const listGallery = listLinks.map((item) =>
 
-		<GalleryCard key={item.id} link={item.link} title={item.title} img={item.img} />
+		<GalleryCard key={item.id + category} link={item.link} title={item.title} img={item.img} description={item.description} />
 	);
 
 
