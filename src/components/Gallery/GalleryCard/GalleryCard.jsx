@@ -7,16 +7,32 @@ const GalleryCard = (props) => {
 
 	const [cardImgDescription, setCardImgDescription] = useState(false);
 
-	const handleDescription = () => {
+	/* const handleDescription = () => {
 		setCardImgDescription(!cardImgDescription);
-	}
+	}; */
 
+	const handleDescriptionEnter = () => {
+		setCardImgDescription(true);
+	};
+
+	const handleDescriptionLeave = () => {
+		setCardImgDescription(false);
+	};
 
 	return (
 
 
-		<div className={style.card}>
-			<div className={cx(style.cardImg)} onClick={handleDescription} >
+		<div className={style.card}
+
+
+
+			onMouseEnter={handleDescriptionEnter}
+			onMouseLeave={handleDescriptionLeave}    >
+
+
+			<div className={cx(style.cardImg)}
+			/* onClick={handleDescription} */
+			>
 
 				{cardImgDescription ?
 					<div className={cx(style.animationOfCardImgP, style.cardImgP)}>
@@ -26,12 +42,7 @@ const GalleryCard = (props) => {
 					<section className={cx(style.animationOfCardImgImg)}>
 						<img src={props.img} alt="" />
 					</section>
-
-
-
 				}
-
-
 
 			</div>
 
@@ -41,6 +52,11 @@ const GalleryCard = (props) => {
 					<p>{props.title}</p>
 				</a>
 			</div>
+
+
+
+
+
 		</div>
 
 
