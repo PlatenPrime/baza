@@ -55,7 +55,7 @@
 	text-transform: uppercase;
 	height: 2rem;
 	width: 318px;
-	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.797);
 	border: 1px solid rgb(5, 200, 142);
 color:rgb(5, 200, 142);
 	transition: 0.3s;
