@@ -24,38 +24,52 @@ const GalleryCard = (props) => {
 
 		<div className={style.card}
 
-
-
 			onMouseEnter={handleDescriptionEnter}
 			onMouseLeave={handleDescriptionLeave}    >
 
+			<a className={style.cardLink} href={props.link} target="_blank">
 
-			<div className={cx(style.cardImg)}
-			/* onClick={handleDescription} */
-			>
+
+
 
 				{cardImgDescription ?
-					<div className={cx(style.animationOfCardImgP, style.cardImgP)}>
-						<p >   {props.description}  </p>
-					</div>
-					:
-					<section className={cx(style.animationOfCardImgImg)}>
-						<img src={props.img} alt="" />
+
+
+					<section className={cx(style.cardImgDescription, style.animationOfCardDescription)}>
+						<div className={cx(style.cardDescription)} >
+							<p >   {props.description}  </p>
+						</div>
+						<section className={cx(style.cardImg)} >
+							<img src={props.img} alt="" />
+						</section>
+
 					</section>
+
+					:
+
+
+					<div className={cx(style.cardImgDescription, style.animationOfCardImg)}>
+
+						<section className={cx(style.cardImg)} >
+							<img src={props.img} alt="" />
+						</section>
+
+					</div>
+
+
 				}
 
-			</div>
 
 
-			<div className={style.cardP}>
-				<a href={props.link} target="_blank">
+				<div className={style.cardP}>
+
 					<p>{props.title}</p>
-				</a>
-			</div>
+
+				</div>
 
 
 
-
+			</a>
 
 		</div>
 

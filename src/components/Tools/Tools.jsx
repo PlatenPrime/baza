@@ -34,7 +34,7 @@ const Tools = () => {
 
 			<ToolsCategoryContext.Provider value={category}>
 
-				{params.category ? <Outlet /> : <h3>Клацни по какой-то кнопке, чтобы увидеть красоту!</h3>}
+				{params.category ? <Outlet /> : <h3>Нажми на категорию, чтобы открылись карточки</h3>}
 
 			</ToolsCategoryContext.Provider>
 
