@@ -9,8 +9,8 @@
 	align-items: center;
 	flex-direction: column;
 	transition: 0.3s ease-in-out;
-	border-radius: 10px;
-	border-radius: 50px 50px 50px 50px;
+
+	border-radius: 20px 20px 30px 30px;
 	outline: none;
 	position: relative;
 	
@@ -57,6 +57,7 @@
 	width: 318px;
 	background-color: rgba(0, 0, 0, 0.797);
 	border: 1px solid rgb(5, 200, 142);
+	
 color:rgb(5, 200, 142);
 	transition: 0.3s;
 	position: absolute;
