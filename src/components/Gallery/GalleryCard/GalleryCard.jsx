@@ -3,13 +3,17 @@ import style from './GalleryCard.module.css';
 import cx from 'classnames';
 
 
+
+
+
+
+
 const GalleryCard = (props) => {
 
-	const [cardImgDescription, setCardImgDescription] = useState(false);
 
-	/* const handleDescription = () => {
-		setCardImgDescription(!cardImgDescription);
-	}; */
+	//управляем отображением описания при наведении
+
+	const [cardImgDescription, setCardImgDescription] = useState(false);
 
 	const handleDescriptionEnter = () => {
 		setCardImgDescription(true);
@@ -18,6 +22,29 @@ const GalleryCard = (props) => {
 	const handleDescriptionLeave = () => {
 		setCardImgDescription(false);
 	};
+
+
+
+	// делаем заглушку на время загрузки картинок
+
+	const [blockImg, setBlockImg] = useState(true);
+
+	setTimeout(() => {
+		setBlockImg(false)
+	}, 500);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	return (
 
@@ -31,34 +58,28 @@ const GalleryCard = (props) => {
 
 
 
-
-				{cardImgDescription ?
-
-
-					<section className={cx(style.cardImgDescription, style.animationOfCardDescription)}>
-						<div className={cx(style.cardDescription)} >
-							<p >   {props.description}  </p>
-						</div>
-						<section className={cx(style.cardImg)} >
-							<img src={props.img} alt="" />
-						</section>
-
-					</section>
-
-					:
+				{blockImg ? <div className={style.cardBlockOn} ></div> : <div className={style.cardBlockOff} ></div>}
 
 
-					<div className={cx(style.cardImgDescription, style.animationOfCardImg)}>
-
-						<section className={cx(style.cardImg)} >
-							<img src={props.img} alt="" />
-						</section>
-
-					</div>
-
-
-				}
-
+				<section>
+					{
+						cardImgDescription ?
+							<section className={cx(style.cardImgDescription, style.animationOfCardDescription)}>
+								<div className={cx(style.cardDescription)} >
+									<p >   {props.description}  </p>
+								</div>
+								<section className={cx(style.cardImg)} >
+									<img src={props.img} alt="" />
+								</section>
+							</section>
+							:
+							<div className={cx(style.cardImgDescription, style.animationOfCardImg)}>
+								<section className={cx(style.cardImg)} >
+									<img src={props.img} alt="" />
+								</section>
+							</div>
+					}
+				</section>
 
 
 				<div className={style.cardP}>
@@ -71,7 +92,7 @@ const GalleryCard = (props) => {
 
 			</a>
 
-		</div>
+		</div >
 
 
 	);

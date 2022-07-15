@@ -92,7 +92,29 @@ color:rgb(5, 200, 142);
 }
 
 
+.cardBlockOn {
+	background-color: rgb(5, 200, 142);
+	height: 180px;
+	width: 320px;
+	overflow: hidden;
+	transition: 0.3s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
 
+.cardBlockOff {
+	background-color: transparent;
+	height: 180px;
+	width: 320px;
+	overflow: hidden;
+	transition: 0.3s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
 
 
 .cardImg {
@@ -100,9 +122,6 @@ color:rgb(5, 200, 142);
 	width: 320px;
 	overflow: hidden;
 	transition: 0.3s ease-in-out;
-	position: relative;
-	bottom: 0;
-	left: 0;
 	position: absolute;
 	top: 0;
 	left: 0;
