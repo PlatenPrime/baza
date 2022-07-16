@@ -17,6 +17,23 @@ min-width: 100vw;
 
 
 
+.AppContent {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  
+
+  
+}
+
+
+
+
 
 @media (max-width: 768px) { 
 	
@@ -25,4 +42,6 @@ min-width: 100vw;
 }
 
 }
+
+
 

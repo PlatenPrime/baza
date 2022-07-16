@@ -31,7 +31,7 @@ const GalleryCard = (props) => {
 
 	setTimeout(() => {
 		setBlockImg(false)
-	}, 500);
+	}, 900);
 
 
 
