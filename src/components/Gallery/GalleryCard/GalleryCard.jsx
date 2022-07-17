@@ -27,11 +27,14 @@ const GalleryCard = (props) => {
 
 	// делаем заглушку на время загрузки картинок
 
+	let delay = 300 + 100 * props.id;
+
+
 	const [blockImg, setBlockImg] = useState(true);
 
 	setTimeout(() => {
 		setBlockImg(false)
-	}, 900);
+	}, delay);
 
 
 

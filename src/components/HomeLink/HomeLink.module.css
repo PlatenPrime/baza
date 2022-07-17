@@ -1,11 +1,11 @@
 .homeLink {
-	color: rgb(5, 200, 142);
+	color: rgb(0, 0, 0);
 	border-radius: 10px;
 	
 }
 
 .homeLinkLink {
-	color: rgb(5, 200, 142);
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	text-align: center;
 }
@@ -15,12 +15,13 @@
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 	text-align: center;
-	background-color: rgb(5, 200, 142);
+	background-color: rgb(0, 0, 0);
 	transition: 0.3s;
 }
 
 .homeLinkLink:hover {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
 	text-decoration: none;
 	text-align: center;
 	transition: 0.3s;
