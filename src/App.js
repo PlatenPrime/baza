@@ -2,8 +2,9 @@ import './App.css';
 import SideBar from './components/SideBar/SideBar.jsx';
 import RightBar from './components/RightBar/RightBar.jsx';
 import { Outlet } from 'react-router';
-import BazaAppBar from './components/BazaAppBar/BazaAppBar';
+
 import { Box, Stack } from '@mui/material';
+import styled from '@emotion/styled';
 
 
 
@@ -11,30 +12,30 @@ import { Box, Stack } from '@mui/material';
 
 function App() {
 	return (
-		<>
-
-
-			<Box className='App'  >
-
-				<BazaAppBar />
-
-				<Stack direction="row" >
-
-					<SideBar />
-
-					<Box flex={4} p={2}>
-						<Outlet />
-					</Box>
-
-					<RightBar />
-
-				</Stack>
 
 
 
-			</Box>
+		<Box className='App' m={0} p={0} >
 
-		</>
+
+
+			<Stack direction="row" className="stack" m={0} p={0}    >
+
+				<SideBar />
+
+				<Box flex={7} >
+					<Outlet />
+				</Box>
+
+				<RightBar />
+
+			</Stack>
+
+
+
+		</Box>
+
+
 	);
 }
 

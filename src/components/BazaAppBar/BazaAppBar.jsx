@@ -11,28 +11,29 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const BazaAppBar = () => {
 	return (
-		<Box sx={{ flexGrow: 1 }}>
-			<AppBar position="sticky" sx={{ bgcolor: "rgb(5, 200, 142)", color: "#000" }}>
-				<Toolbar>
-					<IconButton
-						size="large"
-						edge="start"
-						color="inherit"
-						aria-label="menu"
-						sx={{ mr: 2 }}
-					>
-						<MenuIcon />
-					</IconButton>
 
-					<HomeLink />
+		<AppBar  sx={{ bgcolor: "rgb(5, 200, 142, 0.5)", color: "#000", }}>
+			<Toolbar>
+				<IconButton
+					size="large"
+					edge="start"
+					color="inherit"
+					aria-label="menu"
+					sx={{
+						display: {
+							xs: "block",
+							sm: "none"
+						}
+					}}
+				>
+					<MenuIcon />
+				</IconButton>
+
+				<HomeLink />
 
 
-
-
-					<Button color="inherit">Login</Button>
-				</Toolbar>
-			</AppBar>
-		</Box>
+			</Toolbar>
+		</AppBar>
 	);
 };
 

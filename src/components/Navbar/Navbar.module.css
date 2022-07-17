@@ -8,6 +8,7 @@ flex-wrap: wrap;
 padding: 20px 5px;
 min-width: 95%;
 box-sizing: border-box;
+position: sticky;
 
 
 }
