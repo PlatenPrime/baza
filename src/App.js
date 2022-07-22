@@ -15,19 +15,33 @@ function App() {
 
 
 
-		<Box className='App' m={0} p={0} >
+		<Box className='App' m={0} p={0}
+
+
+		>
 
 
 
-			<Stack direction="row" className="stack" m={0} p={0}    >
+			<Stack direction="row" className="stack" m={0} p={0}
 
-				<SideBar />
+
+			>
+
+				<Box flex={1}>
+					<SideBar />
+				</Box>
+
+
 
 				<Box flex={7} >
 					<Outlet />
 				</Box>
 
-				<RightBar />
+
+				<Box flex={2}>
+					<RightBar />
+
+				</Box>
 
 			</Stack>
 

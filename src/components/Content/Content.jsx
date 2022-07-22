@@ -16,6 +16,7 @@ const Content = (props) => {
 
 			<Gallery category={category} />
 
+
 		</div>
 	);
 };

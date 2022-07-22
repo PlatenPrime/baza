@@ -1,6 +1,8 @@
 .rightBar {
 margin: 0;
-	box-shadow:inset 2px 0px 0px 0px rgb(5, 200, 142);
-	position: sticky;
+	
+	position: fixed;
+	top: 0;
+	right: -40;
 	border-radius: 20px 0px 0px 20px;
 }
