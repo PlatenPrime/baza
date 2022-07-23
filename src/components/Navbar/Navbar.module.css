@@ -6,7 +6,7 @@ align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
 padding: 20px 5px;
-margin: 0 2rem;
+
 min-width: 90%;
 box-sizing: border-box;
 position: sticky;
