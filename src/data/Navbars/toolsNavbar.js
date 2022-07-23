@@ -4,48 +4,48 @@ export const toolsNavbar = [
 	{
 		id: 1,
 		title: 'Resourses',
-		route: 'resourses'
+		route: 'tools/resourses'
 	},
 
 	{
 		id: 2,
 		title: 'HTML',
-		route: 'html'
+		route: 'tools/html'
 	},
 	{
 		id: 3,
 		title: 'CSS',
-		route: 'css'
+		route: 'tools/css'
 	},
 	{
 		id: 4,
 		title: 'JS',
-		route: 'js'
+		route: 'tools/js'
 	},
 	{
 		id: 5,
 		title: 'REACT',
-		route: 'react'
+		route: 'tools/react'
 	},
 	{
 		id: 6,
 		title: 'Libraries',
-		route: 'libs'
+		route: 'tools/libs'
 	},
 	{
 		id: 7,
 		title: 'Images',
-		route: 'images'
+		route: 'tools/images'
 	},
 	{
 		id: 8,
 		title: 'Community',
-		route: 'community'
+		route: 'tools/community'
 	},
 	{
 		id: 9,
 		title: 'challenges',
-		route: 'challenges'
+		route: 'tools/challenges'
 	},
 
 

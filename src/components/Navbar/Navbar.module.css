@@ -1,11 +1,11 @@
 .navbar {
 	height: fit-content;
-	background-color: rgba(0, 0, 0, 0.9);
+	
 display: flex;
 align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
-padding: 20px 5px;
+padding: 1rem;
 
 min-width: 90%;
 box-sizing: border-box;

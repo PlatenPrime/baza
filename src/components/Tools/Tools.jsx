@@ -6,6 +6,7 @@ import { toolsNavbar } from '../../data/Navbars/toolsNavbar';
 import { useParams } from "react-router-dom";
 import { useContext } from 'react';
 import { ToolsCategoryContext } from './ToolsCategoryContext.js';
+import RightBar from '../RightBar/RightBar';
 
 const Tools = () => {
 
@@ -26,32 +27,29 @@ const Tools = () => {
 
 
 	return (
-		<div className={style.tools}>
-
-
-			<Navbar links={toolsNavbar} />
-
-
-			<ToolsCategoryContext.Provider value={category}>
-
-				{params.category ? <Outlet /> : <h3>Нажми на категорию, чтобы открылись карточки</h3>}
-
-			</ToolsCategoryContext.Provider>
 
 
 
+		<>
 
 
 
+			<div className={style.tools}>
+
+				<ToolsCategoryContext.Provider value={category}>
+
+					{params.category ? <Outlet /> : <h3>Нажми на категорию, чтобы открылись карточки</h3>}
+
+				</ToolsCategoryContext.Provider>
+
+			</div>
+
+		
+
+			
 
 
-
-
-
-
-
-
-		</div>
+		</>
 	);
 };
 
