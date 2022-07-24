@@ -1,18 +1,7 @@
 .main {
 	color:azure;
-	width: calc(100% - 200px);
+	width: 70%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-@media (max-width: 768px) { 
-	
-	.main {
-		
-	width: 100%;
-	
-	}
-	
-	
 }
