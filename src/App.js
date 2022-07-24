@@ -33,7 +33,17 @@ function App() {
 				}}   >
 
 
-					<Box className='sideBar' >
+					<Box className='sideBar'
+
+						sx={{
+
+							height: "92%",
+							overflow: "hidden",
+							overflowY: "scroll",
+
+						}}
+
+					>
 						<SideBar />
 					</Box>
 
@@ -58,7 +68,19 @@ function App() {
 
 
 
-					<Box className="rightBar">
+					<Box className="rightBar"
+
+						sx={{
+
+							height: "92%",
+							overflow: "hidden",
+							overflowY: "scroll",
+
+						}}
+
+
+
+					>
 						<RightBar />
 					</Box>
 
