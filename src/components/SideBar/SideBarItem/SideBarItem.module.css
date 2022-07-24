@@ -1,26 +1,24 @@
 .sideBarItem {
-	color: white;
-	text-transform: uppercase;
-padding-left: 10px;
-border-radius: 5px;
-height: 2rem;
-display: flex;
-justify-content: start;
-align-items: center;
-margin-bottom: 10px;
+	
+	color: rgb(255, 255, 255);
+
+	text-decoration: none;
+	width: 10rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+
+
+	transition: 0.1s;
 	
 }
 
 
 .sideBarItem:hover {
+	color: rgb(255, 255, 255);
 	background-color: rgb(5, 200, 142);
-	color: rgb(0, 0, 0);
-	-webkit-transition: background 0.3s ease-in;
-	-moz-transition: background 0.3s ease-in;
-	-ms-transition: background 0.3s ease-in;
-	-o-transition: background 0.3s ease-in;
-	transition: background 0.3s ease-in;
-
 
 
 

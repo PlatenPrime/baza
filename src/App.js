@@ -31,24 +31,36 @@ function App() {
 						md: "block"
 					}
 				}}   >
-					<SideBar />
+
+
+					<Box className='sideBar' >
+						<SideBar />
+					</Box>
+
+
 				</Box>
 
 
 
-				<Box flex={4} >
+				<Box flex={3} className="outlet">
 					<Outlet />
 				</Box>
 
 
-				<Box flex={1} p={1} sx={{
+				<Box flex={1} sx={{
 					display: {
 						xs: "none",
 						sm: "none",
 						md: "block"
-					}
+					},
+
 				}}   >
-					<RightBar />
+
+
+
+					<Box className="rightBar">
+						<RightBar />
+					</Box>
 
 				</Box>
 

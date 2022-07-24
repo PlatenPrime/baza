@@ -1,9 +1,12 @@
 .BazaAppBar {
 	width: 100%;
 	height: 4rem;
-	background-color: rgba(5, 200, 141, 0.89);
+	background-color: rgba(0, 0, 0, 0.5);
 	position: sticky;
 	top: 0;
 	z-index: 200;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }

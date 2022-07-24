@@ -1,16 +1,15 @@
 .navbar {
 	height: fit-content;
-	
 display: flex;
 align-items: center;
+flex-direction: column;
 justify-content: space-evenly;
 flex-wrap: wrap;
 padding: 1rem;
 
 min-width: 90%;
 box-sizing: border-box;
-position: sticky;
-top: 0;
+
 z-index: 100;
 
 
@@ -19,8 +18,8 @@ z-index: 100;
 
 .NavbarLink {
 	
-color: rgb(5, 200, 142);
-background-color: transparent;
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 0, 0.5);
 text-decoration: none;
 width: 10rem;
 height: 2rem;
@@ -29,7 +28,7 @@ justify-content: center;
 align-items: center;
 border-radius: 10px;
 margin: 5px;
-border: 1px solid rgb(5, 200, 142);
+border: 1px solid rgb(255, 255, 255);
 transition: 0.1s;
 	
 }
