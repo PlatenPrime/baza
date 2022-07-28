@@ -6,19 +6,55 @@ import { Outlet } from 'react-router';
 import { Box, Stack } from '@mui/material';
 import styled from '@emotion/styled';
 import BazaAppBar from './components/BazaAppBar/BazaAppBar';
+import { useState } from 'react';
 
 
 
 
 
 function App() {
+
+
+	const [displayRightBar, setDisplayRightBar] = useState(false);
+
+
+	function handleDisplayRightBar() {
+		setDisplayRightBar(!displayRightBar);
+		setDisplayLeftBar(false);
+
+	}
+
+
+	const [displayLeftBar, setDisplayLeftBar] = useState(false);
+
+
+	function handleDisplayLeftBar() {
+		setDisplayLeftBar(!displayLeftBar);
+		setDisplayRightBar(false);
+
+	}
+
+
+
+
+
+
+
 	return (
 
 
 
 		<Box className='App' m={0} p={0}>
 
-			<BazaAppBar />
+			<BazaAppBar
+
+				displayRightBar={displayRightBar}
+				handleDisplayRightBar={handleDisplayRightBar}
+
+				displayLeftBar={displayLeftBar}
+				handleDisplayLeftBar={handleDisplayLeftBar}
+
+			/>
 
 			<Stack direction="row" className="stack" m={0} p={0}
 

@@ -1,0 +1,11 @@
+.rightMenu {
+	min-width: 100vw;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	position: relative;
+	
+top: 0;
+}
