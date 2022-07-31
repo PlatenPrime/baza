@@ -1,9 +1,19 @@
 import React from 'react';
 import style from './Gallery.module.css';
 import GalleryCard from './GalleryCard/GalleryCard';
-import { toolsLinks } from "./../../data/Links/toolsLinks";
+import { toolsLinks } from "./../../../../data/Links/toolsLinks";
+
+
+import { useContext } from "react";
+import { BazaContext } from '../../../../BazaContext';
+
 
 const Gallery = ({ category }) => {
+
+
+	const BazaState = useContext(BazaContext);
+
+
 
 
 	const listLinks = toolsLinks[category];
@@ -17,7 +27,12 @@ const Gallery = ({ category }) => {
 	return (
 		<div className={style.gallery}>
 
+			
+
 			{listGallery}
+
+
+
 
 		</div>
 	);

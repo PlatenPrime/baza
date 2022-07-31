@@ -7,9 +7,56 @@ import TocIcon from '@mui/icons-material/Toc';
 import RightBar from '../RightBar/RightBar';
 import RightMenu from './RightMenu/RightMenu';
 import LeftMenu from './LeftMenu/LeftMenu';
+import { styled } from '@mui/material/styles';
 
 
-const BazaAppBar = ({ displayRightBar, handleDisplayRightBar, displayLeftBar, handleDisplayLeftBar, }) => {
+import { useContext } from "react";
+import { BazaContext } from './../../BazaContext';
+
+
+const BazaAppBar = ({ DisplayLeftMenu, DisplayRightMenu }) => {
+
+
+	const BazaToolBar = styled(Toolbar)(
+
+		{
+			width: "90%", display: "flex", flexDirection: "row", justifyContent: "space-around",
+
+		}
+	);
+
+
+	const BazaToolBarListIcon = styled(ListIcon)(
+
+		{
+			cursor: "pointer", display: "flex",
+			justifyContent: "center",
+			alignItems: "center",
+			height: "100%",
+			fontSize: "2rem",
+		}
+	);
+
+
+	const BazaToolBarTocIcon = styled(TocIcon)(
+		{
+			cursor: "pointer", display: "flex",
+			justifyContent: "center",
+			alignItems: "center",
+			height: "100%",
+			fontSize: "2rem",
+		}
+	)
+
+
+
+	const state = useContext(BazaContext);
+
+
+
+
+
+
 	return (
 
 		<>
@@ -17,48 +64,30 @@ const BazaAppBar = ({ displayRightBar, handleDisplayRightBar, displayLeftBar, ha
 
 			<Box className={style.BazaAppBar}  >
 
-				<Toolbar sx={{
-					width: "90%", display: "flex", flexDirection: "row", justifyContent: {
-						xs: "space-between",
-						sm: "space-between",
-						md: "center"
-					}
-				}}>
-					<ListIcon
-						onClick={handleDisplayLeftBar}
-						sx={{
-							cursor: "pointer", display: "flex",
-							justifyContent: "center",
-							alignItems: "center",
-							height: "100%",
-							fontSize: "2rem",
-							display: {
-								xs: "block",
-								sm: "block",
-								md: "none"
-							},
-						}} />
+				<BazaToolBar    >
+
+					<BazaToolBarListIcon
+						onClick={DisplayLeftMenu}
+					/>
+
+
+
 					<HomeLink />
-					<TocIcon
-						onClick={handleDisplayRightBar}
-						sx={{
-							cursor: "pointer", display: "flex",
-							justifyContent: "center",
-							alignItems: "center",
-							height: "100%",
-							fontSize: "2rem",
-							display: {
-								xs: "block",
-								sm: "block",
-								md: "none"
-							},
-						}} />
-				</Toolbar>
+
+					<BazaToolBarTocIcon
+						onClick={DisplayRightMenu} />
+
+				</BazaToolBar>
+
 			</Box>
 
+			{state.displayLeftMenu ? <LeftMenu /> : ""}
 
-			{displayRightBar ? <RightMenu /> : ""}
-			{displayLeftBar ? <LeftMenu /> : ""}
+			{state.displayRightMenu ? <RightMenu /> : ""}
+
+
+
+
 
 
 

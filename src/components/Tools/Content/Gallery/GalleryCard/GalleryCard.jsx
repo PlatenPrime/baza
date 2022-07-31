@@ -40,15 +40,6 @@ const GalleryCard = (props) => {
 
 
 
-
-
-
-
-
-
-
-
-
 	return (
 
 

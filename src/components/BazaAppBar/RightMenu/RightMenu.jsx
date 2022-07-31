@@ -1,12 +1,13 @@
 import React from 'react';
 import style from "./RightMenu.module.css";
-import RightBar from '../../RightBar/RightBar';
+import Navbar from '../../Navbar/Navbar';
+import { toolsNavbar } from '../../../data/Navbars/toolsNavbar';
 
 
 const RightMenu = () => {
 	return (
 		<div className={style.rightMenu}>
-			<RightBar />
+			<Navbar links={toolsNavbar} />
 		</div>
 	);
 };

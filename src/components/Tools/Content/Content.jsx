@@ -1,8 +1,8 @@
 import React from 'react';
-import Gallery from '../Gallery/Gallery';
+import Gallery from "./Gallery/Gallery"
 import style from './Content.module.css';
 import { useContext } from 'react';
-import { ToolsCategoryContext } from '../Tools/ToolsCategoryContext';
+import { ToolsCategoryContext } from '../ToolsCategoryContext';
 
 const Content = (props) => {
 
