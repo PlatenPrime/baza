@@ -3,21 +3,35 @@
 	padding: 0;
 	box-sizing: border-box;
   text-align: center;
-  display: column;
+
   min-height: 101vh;
 max-width: 100vw;
-  flex-direction: row;
+
 
   color: aliceblue;
 
 
+  display: grid;
+
+  grid-template-rows: 4rem 1fr;
 
 
   
 }
 
-.stack {
+
+
+
+.main {
+
 	min-height: 100vh;
+	display: grid;
+
+	grid-template-columns: 1fr 3fr 1fr;
+
+	grid-column: 1 / 4;
+	grid-row: 2 / 3;
+
 }
 
 .sideBar {
@@ -25,10 +39,21 @@ max-width: 100vw;
 	position: fixed;
 	top: 4rem;
 	left: 3rem;
+
+	height: "92%";
+	overflow: "hidden";
+	overflow-y: "scroll";
+
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
 }
 
 
 .outlet {
+
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+
 
 	display: flex;
 	justify-content: center;
@@ -38,12 +63,56 @@ max-width: 100vw;
 
 
 .rightBar {
+
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+
 	margin: auto;
 	position: fixed;
 	top: 4rem;
 right: 3rem;
 
+height: "92%";
+overflow: "hidden";
+overflow-y: "scroll";
+
+
+
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .App {
@@ -75,7 +144,7 @@ right: 3rem;
 
   /* width */
 ::-webkit-scrollbar {
-	width: 3px;
+	width: 10px;
   }
   
   /* Track */
@@ -86,7 +155,7 @@ right: 3rem;
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-	background: rgba(115, 236, 236, 0.319);
+	background: rgb(115, 236, 236);
   }
   
   /* Handle on hover */

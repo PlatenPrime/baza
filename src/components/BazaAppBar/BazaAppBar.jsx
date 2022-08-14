@@ -10,8 +10,7 @@ import LeftMenu from './LeftMenu/LeftMenu';
 import { styled } from '@mui/material/styles';
 
 
-import { useContext } from "react";
-import { BazaContext } from './../../BazaContext';
+
 
 
 const BazaAppBar = ({ DisplayLeftMenu, DisplayRightMenu }) => {
@@ -50,8 +49,6 @@ const BazaAppBar = ({ DisplayLeftMenu, DisplayRightMenu }) => {
 
 
 
-	const state = useContext(BazaContext);
-
 
 
 
@@ -80,17 +77,6 @@ const BazaAppBar = ({ DisplayLeftMenu, DisplayRightMenu }) => {
 				</BazaToolBar>
 
 			</Box>
-
-			{state.displayLeftMenu ? <LeftMenu /> : ""}
-
-			{state.displayRightMenu ? <RightMenu /> : ""}
-
-
-
-
-
-
-
 
 
 		</>

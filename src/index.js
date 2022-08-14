@@ -12,36 +12,46 @@ import Main from './components/Main/Main';
 import Content from './components/Tools/Content/Content';
 
 
+import { store } from './store'
+import { Provider } from 'react-redux'
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
 	<React.StrictMode>
-		<BrowserRouter>
 
-			<Routes>
-				<Route path="/" element={<App />}>
+		<Provider store={store}>
 
-					<Route index element={<Main />} />
+			<BrowserRouter>
 
-					<Route path="tools/*" element={<Tools />} >
+				<Routes>
+					<Route path="/" element={<App />}>
 
-						<Route path=":category" element={<Content />} />
+						<Route index element={<Main />} />
 
+						<Route path="tools/*" element={<Tools />} >
+
+							<Route path=":category" element={<Content />} />
+
+						</Route>
+
+
+						<Route
+							path="*"
+							element={
+								<main style={{ padding: "1rem" }}>
+									<p>Нихрена не отрисует</p>
+								</main>
+							}
+						/>
 					</Route>
+				</Routes>
 
+			</BrowserRouter>
 
-					<Route
-						path="*"
-						element={
-							<main style={{ padding: "1rem" }}>
-								<p>Нихрена не отрисует</p>
-							</main>
-						}
-					/>
-				</Route>
-			</Routes>
+		</Provider>
 
-		</BrowserRouter>
 	</React.StrictMode>
 
 );
